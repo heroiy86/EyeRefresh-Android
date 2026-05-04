@@ -1,4 +1,4 @@
-package com.experimental.eyerefreshnative.service
+package com.herosoundiy.menou.service
 
 import android.app.*
 import android.content.Intent
@@ -7,9 +7,9 @@ import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
-import com.experimental.eyerefreshnative.MainActivity
-import com.experimental.eyerefreshnative.R
-import com.experimental.eyerefreshnative.constants.AppConstants
+import com.herosoundiy.menou.MainActivity
+import com.herosoundiy.menou.R
+import com.herosoundiy.menou.constants.AppConstants
 
 /**
  * フォアグラウンドサービス。

@@ -1,12 +1,16 @@
 <resources>
-    <string name="app_name">Eye Refresh Native</string>
-    <string name="gabor_patch_title">ガボール・パッチ</string>
-    <string name="stereogram_guide_title">ステレオグラム・ガイド（平行法）</string>
-    <string name="eye_movement_title">なめらかな眼球運動</string>
-    <string name="btn_gabor">ガボール</string>
+    <!-- 
+        日本語のアプリ名称。
+        「MENOU」というブランド名を強調しつつ、
+        サブタイトルを付与することでアプリの目的を明確化。
+    -->
+    <string name="app_name">MENOU - 目と脳のコンディショニング -</string>
+
+    <!-- UIラベル -->
+    <string name="btn_start_training">トレーニング開始</string>
+    <string name="btn_settings">設定</string>
+    <string name="btn_gabor">ガボア</string>
     <string name="btn_stereo">ステレオ</string>
     <string name="btn_move">眼球運動</string>
-    <string name="notification_content">快適な視覚トレーニングをサポート中</string>
-    <string name="notification_channel_name">Eye Refresh トレーニング</string>
-    <string name="notification_channel_desc">トレーニング中の通知管理</string>
+    <string name="btn_reward">報酬で解放</string>
 </resources>

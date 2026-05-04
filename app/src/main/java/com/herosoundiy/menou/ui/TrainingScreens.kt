@@ -1,4 +1,4 @@
-package com.experimental.eyerefreshnative.ui
+package com.herosoundiy.menou.ui
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
@@ -14,8 +14,8 @@ import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.res.stringResource
-import com.experimental.eyerefreshnative.R
-import com.experimental.eyerefreshnative.constants.AppConstants
+import com.herosoundiy.menou.R
+import com.herosoundiy.menou.constants.AppConstants
 import kotlin.math.sin
 
 /**

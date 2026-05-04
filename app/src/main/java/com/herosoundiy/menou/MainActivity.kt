@@ -1,4 +1,4 @@
-package com.experimental.eyerefreshnative
+package com.herosoundiy.menou
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,11 +10,11 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.res.stringResource
-import com.experimental.eyerefreshnative.R
-import com.experimental.eyerefreshnative.constants.AppConstants
-import com.experimental.eyerefreshnative.service.AdManager
-import com.experimental.eyerefreshnative.service.EyeGuardService
-import com.experimental.eyerefreshnative.ui.*
+import com.herosoundiy.menou.R
+import com.herosoundiy.menou.constants.AppConstants
+import com.herosoundiy.menou.service.AdManager
+import com.herosoundiy.menou.service.EyeGuardService
+import com.herosoundiy.menou.ui.*
 
 /**
  * メインアクティビティ。

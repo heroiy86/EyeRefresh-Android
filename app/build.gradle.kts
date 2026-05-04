@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.experimental.eyerefreshnative"
+    namespace = "com.herosoundiy.menou"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.experimental.eyerefreshnative"
+        applicationId = "com.herosoundiy.menou"
         minSdk = 30
         targetSdk = 35
         versionCode = 1

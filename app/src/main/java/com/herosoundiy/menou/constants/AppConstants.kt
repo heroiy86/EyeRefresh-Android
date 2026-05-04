@@ -1,4 +1,4 @@
-package com.experimental.eyerefreshnative.constants
+package com.herosoundiy.menou.constants
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,12 +1,15 @@
 <resources>
-    <string name="app_name">Eye Refresh Native</string>
-    <string name="gabor_patch_title">Gabor Patch</string>
-    <string name="stereogram_guide_title">Stereogram Guide (Parallel Method)</string>
-    <string name="eye_movement_title">Smooth Eye Movement</string>
+    <!-- 
+        App Name for English users.
+        The subtitle is placed after a hyphen to maintain a clear brand identity.
+    -->
+    <string name="app_name">MENOU - Eye &amp; Brain Conditioning -</string>
+    
+    <!-- UI Labels -->
+    <string name="btn_start_training">Start Training</string>
+    <string name="btn_settings">Settings</string>
     <string name="btn_gabor">Gabor</string>
     <string name="btn_stereo">Stereo</string>
     <string name="btn_move">Move</string>
-    <string name="notification_content">Eye refresh training in progress</string>
-    <string name="notification_channel_name">Eye Refresh Training</string>
-    <string name="notification_channel_desc">Notification management during training</string>
+    <string name="btn_reward">Unlock Content</string>
 </resources>
