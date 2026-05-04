@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eye Refresh Native</string>
+    <string name="gabor_patch_title">Patch de Gabor</string>
+    <string name="stereogram_guide_title">Guide de stéréogramme (méthode parallèle)</string>
+    <string name="eye_movement_title">Mouvement oculaire fluide</string>
+    <string name="btn_gabor">Gabor</string>
+    <string name="btn_stereo">Stéréo</string>
+    <string name="btn_move">Bouger</string>
+    <string name="notification_content">Entraînement Eye Refresh en cours</string>
+    <string name="notification_channel_name">Entraînement Eye Refresh</string>
+    <string name="notification_channel_desc">Gestion des notifications pendant l\'entraînement</string>
+</resources>

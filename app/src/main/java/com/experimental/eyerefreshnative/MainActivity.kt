@@ -9,7 +9,10 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.res.stringResource
+import com.experimental.eyerefreshnative.R
 import com.experimental.eyerefreshnative.constants.AppConstants
+import com.experimental.eyerefreshnative.service.AdManager
 import com.experimental.eyerefreshnative.service.EyeGuardService
 import com.experimental.eyerefreshnative.ui.*
 
@@ -22,6 +25,10 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
+        // --- AdMob Initialization ---
+        // アプリ起動直後にSDKを初期化。広告のプリロードを裏で開始させる。
+        AdManager.initialize(this)
+
         // サービスを開始
         startForegroundService(Intent(this, EyeGuardService::class.java))
 
@@ -42,6 +49,10 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
+                    // 広告表示エリア（トレーニングとナビゲーションの間）
+                    // プレースホルダーとして50dpの高さを確保済み
+                    AdBannerView()
+
                     // ナビゲーションボタン（シンプルかつ余白を持たせた設計）
                     Row(
                         modifier = Modifier
@@ -55,11 +66,16 @@ class MainActivity : ComponentActivity() {
                         ) {
                             Text("Gabor", color = AppConstants.BACKGROUND_DARK)
                         }
+                        // 報酬広告の呼び出し例（特別な機能を解放する場合を想定）
                         Button(
-                            onClick = { currentScreen = 1 },
+                            onClick = { 
+                                AdManager.showRewardedAd(this@MainActivity) { amount ->
+                                    // 報酬付与ロジックをここに記述
+                                }
+                            },
                             colors = ButtonDefaults.buttonColors(containerColor = AppConstants.ACCENT_MINT)
                         ) {
-                            Text("Stereo", color = AppConstants.BACKGROUND_DARK)
+                            Text("Reward", color = AppConstants.BACKGROUND_DARK)
                         }
                         Button(
                             onClick = { currentScreen = 2 },

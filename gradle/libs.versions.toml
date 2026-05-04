@@ -1,5 +1,5 @@
 [versions]
-agp = "8.8.1"
+agp = "8.13.2"
 coreKtx = "1.15.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -24,6 +24,7 @@ androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "u
 androidx-media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "media3" }
 androidx-media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "media3" }
 androidx-media3-common = { group = "androidx.media3", name = "media3-common", version.ref = "media3" }
+google-android-gms-ads = { group = "com.google.android.gms", name = "play-services-ads", version = "23.6.0" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

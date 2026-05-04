@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eye Refresh Native</string>
+    <string name="gabor_patch_title">Parche de Gabor</string>
+    <string name="stereogram_guide_title">Guía de estereograma (método paralelo)</string>
+    <string name="eye_movement_title">Movimiento ocular suave</string>
+    <string name="btn_gabor">Gabor</string>
+    <string name="btn_stereo">Estéreo</string>
+    <string name="btn_move">Mover</string>
+    <string name="notification_content">Entrenamiento de refresco ocular en curso</string>
+    <string name="notification_channel_name">Entrenamiento Eye Refresh</string>
+    <string name="notification_channel_desc">Gestión de notificaciones durante el entrenamiento</string>
+</resources>

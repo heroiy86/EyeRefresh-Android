@@ -8,6 +8,7 @@ import androidx.core.app.NotificationCompat
 import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
 import com.experimental.eyerefreshnative.MainActivity
+import com.experimental.eyerefreshnative.R
 import com.experimental.eyerefreshnative.constants.AppConstants
 
 /**
@@ -49,9 +50,9 @@ class EyeGuardService : Service() {
         )
 
         return NotificationCompat.Builder(this, AppConstants.NOTIFICATION_CHANNEL_ID)
-            .setContentTitle("Eye Refresh Native")
-            .setContentText("快適な視覚トレーニングをサポート中")
-            .setSmallIcon(com.experimental.eyerefreshnative.R.drawable.ic_eye_guard)
+            .setContentTitle(getString(R.string.app_name))
+            .setContentText(getString(R.string.notification_content))
+            .setSmallIcon(R.drawable.ic_eye_guard)
             .setPriority(NotificationCompat.PRIORITY_LOW) // 控えめな通知
             .setCategory(Notification.CATEGORY_SERVICE)
             .setContentIntent(pendingIntent)
@@ -61,10 +62,10 @@ class EyeGuardService : Service() {
     private fun createNotificationChannel() {
         val channel = NotificationChannel(
             AppConstants.NOTIFICATION_CHANNEL_ID,
-            "Eye Refresh Training",
+            getString(R.string.notification_channel_name),
             NotificationManager.IMPORTANCE_LOW
         ).apply {
-            description = "トレーニング中の通知管理"
+            description = getString(R.string.notification_channel_desc)
         }
         val manager = getSystemService(NotificationManager::class.java)
         manager.createNotificationChannel(channel)

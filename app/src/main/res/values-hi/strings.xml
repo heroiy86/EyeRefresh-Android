@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eye Refresh Native</string>
+    <string name="gabor_patch_title">गैबोर पैच (Gabor Patch)</string>
+    <string name="stereogram_guide_title">स्टीरियोोग्राम गाइड (समानांतर विधि)</string>
+    <string name="eye_movement_title">सुचारू आंखों का संचलन</string>
+    <string name="btn_gabor">गैबोर</string>
+    <string name="btn_stereo">स्टीरियो</string>
+    <string name="btn_move">संचलन</string>
+    <string name="notification_content">आंखों का रिफ्रेश प्रशिक्षण जारी है</string>
+    <string name="notification_channel_name">Eye Refresh प्रशिक्षण</string>
+    <string name="notification_channel_desc">प्रशिक्षण के दौरान अधिसूचना प्रबंधन</string>
+</resources>

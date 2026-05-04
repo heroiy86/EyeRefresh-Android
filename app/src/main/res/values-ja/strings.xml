@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eye Refresh Native</string>
+    <string name="gabor_patch_title">ガボール・パッチ</string>
+    <string name="stereogram_guide_title">ステレオグラム・ガイド（平行法）</string>
+    <string name="eye_movement_title">なめらかな眼球運動</string>
+    <string name="btn_gabor">ガボール</string>
+    <string name="btn_stereo">ステレオ</string>
+    <string name="btn_move">眼球運動</string>
+    <string name="notification_content">快適な視覚トレーニングをサポート中</string>
+    <string name="notification_channel_name">Eye Refresh トレーニング</string>
+    <string name="notification_channel_desc">トレーニング中の通知管理</string>
+</resources>

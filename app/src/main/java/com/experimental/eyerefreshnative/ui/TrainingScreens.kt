@@ -13,6 +13,8 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.res.stringResource
+import com.experimental.eyerefreshnative.R
 import com.experimental.eyerefreshnative.constants.AppConstants
 import kotlin.math.sin
 
@@ -53,7 +55,7 @@ fun GaborPatchScreen() {
             }
         }
         Text(
-            text = "Gabor Patch",
+            text = stringResource(id = R.string.gabor_patch_title),
             color = AppConstants.TEXT_SOFT_WHITE,
             modifier = Modifier.align(Alignment.BottomCenter).padding(32.dp)
         )
@@ -90,7 +92,7 @@ fun StereogramScreen() {
             )
         }
         Text(
-            text = "Stereogram Guide (Parallel Method)",
+            text = stringResource(id = R.string.stereogram_guide_title),
             color = AppConstants.TEXT_SOFT_WHITE,
             modifier = Modifier.align(Alignment.BottomCenter).padding(32.dp)
         )
@@ -130,7 +132,7 @@ fun EyeMovementScreen() {
             )
         }
         Text(
-            text = "Smooth Eye Movement",
+            text = stringResource(id = R.string.eye_movement_title),
             color = AppConstants.TEXT_SOFT_WHITE,
             modifier = Modifier.align(Alignment.BottomCenter).padding(32.dp)
         )
