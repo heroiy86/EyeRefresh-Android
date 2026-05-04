@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深い森の緑（背景用） -->
+    <color name="background_dark">#121B14</color>
+    <!-- ソフトホワイト（テキスト用） -->
+    <color name="text_soft_white">#E0E0E0</color>
+    <!-- 淡いミントグリーン（アクセント用） -->
+    <color name="accent_mint">#B2D8B2</color>
+    
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <!-- UI & UX -->
+    <plugin id="izhangzhihao.rainbow.brackets" /> <!-- 括弧の色分け（Composeの視認性向上） -->
+    
+    <!-- Code Quality & Static Analysis -->
+    <plugin id="io.gitlab.arturbosch.detekt" /> <!-- Kotlin静的解析 -->
+    <plugin id="com.nbadal.ktlint" /> <!-- Kotlinフォーマッタ -->
+    <plugin id="com.sonarsource.sonarlint" /> <!-- リアルタイム・バグ検知 -->
+    
+    <!-- Productivity & Git -->
+    <plugin id="com.developerphil.adbidea" /> <!-- ADB操作効率化 -->
+    <plugin id="gr.uom.java.xmi.GitToolBox" /> <!-- Git情報表示（インライン・ブランチ名等） -->
+    <plugin id="com.enbandari.json2kotlin" /> <!-- JSONデータクラス生成 -->
+  </component>
+</project>
